@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Rafael Merino
 #### I am functional developer
-![I am functional developer](banner.jpg)
+<img src="./banner.jpg" alt="logo" height="300px" width="1000px"/>
 
 I'm a functional developer
 
