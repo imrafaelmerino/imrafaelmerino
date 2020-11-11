@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Rafael Merino
 #### I am functional developer
-![I am functional developer](banner.png)
+![I am functional developer](banner.jpg)
 
 I'm a functional developer
 
