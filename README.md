@@ -1,5 +1,6 @@
 ### Hi there 👋, my name is Rafael Merino
 #### I am functional developer
+
 <img src="./banner_3.png" alt="logo"/>
 
 Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
