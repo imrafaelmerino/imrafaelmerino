@@ -2,7 +2,7 @@
 #### I am functional developer
 <img src="./banner.jpg" alt="logo"/>
 
-I'm a functional developer
+TODO
 
 Skills: JAVA / SCALA / Functional Programming / CLOJURE / Actors
 
