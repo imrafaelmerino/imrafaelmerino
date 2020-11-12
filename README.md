@@ -19,4 +19,6 @@ Skills: JAVA / SCALA / Functional Programming / CLOJURE / Actors
 
 <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/>
 
-<img src="logos/json_values_150x86.png" alt="vertx-effect"/>
+<img src="logos/json_values_150x86.png" alt="json-values"/>
+
+<img src="logos/vertx_mongodb_effect_200x116.png" alt="vertx-mongodb-effect"/>
