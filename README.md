@@ -50,7 +50,7 @@ He made a big impact on me, and the changed completely my life as a programmer.
 
 TODO 
 
-- [vertx-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
+- [vertx-mongodb-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
 
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
