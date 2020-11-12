@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Rafael Merino
 #### I am functional developer
-<img src="./banner.jpg" alt="logo"/>
+<img src="./banner_3.png" alt="logo"/>
 
 Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
 
@@ -12,19 +12,32 @@ Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
 - 😄 Pronouns: he 
 - ⚡ Fun fact: Lisp is the first functional programming language, and the second oldest programming language still in use 
 
-List of projects in chronological order and their making-of:
+List of my personal projects 💪 in chronological order and their making-of, sit back and 🍿:
 
 - [json-values](https://github.com/imrafaelmerino/json-values) 
+
+This is my very first project as a functional developer. I learned from Rich Hickey how important persistent data 
+structures are. By the time I started developing json-values I was working with Json all the time. I really missed 
+a persistent Json. I put into practice a lot new concepts like recursion, tail-recursive calls, monads etc. I started
+testing json-values in Scala. I discovered property-based testing thanks to  
+
+I developed json-values in Scala and Dotty as well. Dotty is the new Scala3.
+
+  - [Java version](https://github.com/imrafaelmerino/json-values)
+  - [Scala version](https://github.com/imrafaelmerino/json-scala-values)
+  - [Dotty version](https://github.com/imrafaelmerino/json-dotty-values)
+  
 
 <a href="https://github.com/imrafaelmerino/json-values"> <img src="logos/json_values_150x86.png" alt="json-values"/> </a>
 
 - [vertx-effect](https://github.com/imrafaelmerino/vertx-effect)
 
+
 <a href="https://github.com/imrafaelmerino/vertx-effect"> <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/> </a>
 
 - [vertx-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
 
-<a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_200x116.png" alt="vertx-mongodb-effect"/> </a>
+<a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
 - [mongodb-values](https://github.com/imrafaelmerino/mongodb-values) 
 
