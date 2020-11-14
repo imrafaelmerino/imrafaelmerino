@@ -11,7 +11,7 @@ Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
 
 List of my personal projects 💪 in chronological order and their making-of, sit back and grab 🍿:
 
-- [json-values](https://json-values.imrafaelmerino.dev) 
+- [json-values](https://json.values.imrafaelmerino.dev) 
 
 <a href="https://github.com/imrafaelmerino/json-values"> <img src="logos/json_values_150x86.png" alt="json-values"/> </a>
 
@@ -59,7 +59,7 @@ The **Scala** version took me only four months because I had already grasped the
 the Java version of **json-values**. I tested a lot of alternatives and compare them in terms of performance and design.
 I ended up using the persistent data structures from the library [vavr](https://www.vavr.io).  
 
-- [vertx-effect](https://vertx-effect.imrafaelmerino.dev)
+- [vertx-effect](https://vertx.effect.imrafaelmerino.dev)
 
 <a href="https://github.com/imrafaelmerino/vertx-effect"> <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/> </a>
 
@@ -85,7 +85,7 @@ The result is vertx-effect. There are some expressions implemented that come fro
 It was sad to find out that Joe Armstrong had passed away † in 2009, time before I met him. Rest in peace, Joe. I strongly recommend you 
 study his work. He was very brilliant and, at the same time, very kind and humble.
 
-- [vertx-mongodb-effect](https://vertx-mongodb-effect.imrafaelmerino.dev)
+- [vertx-mongodb-effect](https://vertx.mongodb.effect.imrafaelmerino.dev)
 
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
