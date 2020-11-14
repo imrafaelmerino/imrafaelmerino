@@ -90,7 +90,7 @@ study his work. He was very brilliant and, at the same time, very kind and humbl
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
 You can model any effect in **vertx-effect** using lambdas λ. **vertx-mondodb-effect** gives you some λ to interact 
-with the **MongoDB** functionally and reactively.
+with the **MongoDB**.
 Going from Json to BSON and vice versa was really cumbersome and tedious. That's why I developed **mongo-values**, a set of 
 codecs that abstracts you from that.
 
