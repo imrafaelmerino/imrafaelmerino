@@ -64,7 +64,8 @@ I ended up using the persistent data structures from the library [vavr](https://
 <a href="https://github.com/imrafaelmerino/vertx-effect"> <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/> </a>
 
 Suppose I had to describe **vertx-effect** in three words. In that case, they'd be without a doubt: expressions, composition, 
-and persistent data structures or values.
+and persistent data structures or values. **vertx-effect** is the place where actors model meets functional programming
+in **Java**.
 
 I couldn't resist naming the most essential function in this library as lambda 😎
 
