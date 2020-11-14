@@ -5,6 +5,10 @@
 
 Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
 
+- 📫 How to reach me: imrafaelmerino@gmail.com 
+- 😄 Pronouns: he 
+- ⚡ Fun fact: I was a chess ♔ player. I was the champion 🏆 of Spain 🇪🇸 several times during my childhood. 
+
 List of my personal projects 💪 in chronological order and their making-of, sit back and grab 🍿:
 
 - [json-values](https://json-values.imrafaelmerino.dev) 
@@ -12,12 +16,12 @@ List of my personal projects 💪 in chronological order and their making-of, si
 <a href="https://github.com/imrafaelmerino/json-values"> <img src="logos/json_values_150x86.png" alt="json-values"/> </a>
 
 This was my very first project as a functional developer 👏. I learned from [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) how important persistent data 
-structures are. By the time I started developing json-values, I was working with Json all the time. I really missed 
-a persistent Json and a better API to manipulate them 😡. Developing json-values, I put into practice 🏋️‍ many new 
+structures are. By the time I started developing **json-values**, I was working with Json all the time. I really missed 
+a persistent Json and a better API to manipulate them 😡. Developing **json-values**, I put into practice 🏋️‍ many new 
 concepts for me like recursion, tail-call optimization, trampolines, high order functions, functors, monads, etc.
 
-I started testing 🧪 json-values with a Scala library called [ScalaCheck](https://www.scalacheck.org), which is used for property-based testing (PBT).
-This way, I killed two 🐦 with a stone; I learned a new language, Scala, and an inspiring testing philosophy. I discovered 
+I started testing 🧪 **json-values** with a **Scala** library called [ScalaCheck](https://www.scalacheck.org), which is used for property-based testing (PBT).
+This way, I killed two 🐦 with a stone; I learned a new language, **Scala**, and an inspiring testing philosophy. I discovered 
 property-based testing thanks to [John Hughes](https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist)) and [QuickCheck](https://hackage.haskell.org/package/QuickCheck) from Haskell. 
 PBT led me to create a beautiful Json generator. I challenged the world, 
 claiming it was the best Json generator in the whole galaxy 🌌 by that time (and still it is!) You can benefit from
@@ -45,10 +49,15 @@ I developed json-values in **Scala** and **Dotty** as well. Dotty is a prereleas
 I have tremendous respect for the **Scala** creator, [Martin Odersky](https://en.wikipedia.org/wiki/Martin_Odersky), 
 and the **ZIO** creator, [John A De Goes](https://degoes.net).
 I never miss any of their talks and articles.
+
 On the other hand, **Clojure** is a great alternative as well. It's really challenging since it's a lispy programming language. 
 As a **Lisp** fan, being able to use it in the **JVM** is incredible. You must see any talk from Rich Hickey. He made a significant impact 👊 on me, and he changed my life entirely as a programmer.
 Being honest, it took me almost three years of my life to develop **json-values** and really understand functional programming. 
 The **Scala** version took me only four months because I had already grasped the fundamentals.
+
+**Java** doesn't have persistent data structures. **Scala** and **Clojure** does. This was a problem implementing 
+the Java version of **json-values**. I tested a lot of alternatives and compare them in terms of performance and design.
+I ended up using the persistent data structures from the library [vavr](https://www.vavr.io).  
 
 - [vertx-effect](https://vertx-effect.imrafaelmerino.dev)
 
@@ -60,10 +69,10 @@ and persistent data structures or values.
 I couldn't resist naming the most essential function in this library as lambda 😎
 
 I had been working with Vertx for a long time. I always had the feeling that I could do it better 🤷‍♂️.
-Asynchronous programming is hard. It's even harder if you have to deal with the callback hell to do 
+Asynchronous programming is hard. It's even harder if you have to deal with the callback hell 🔥 to do 
 your business logic. Imperative programming doesn't help here. 
 
-On the other hand, I started learning Erlang and watching videos of [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)). 
+On the other hand, I started learning **Erlang** and watching videos of [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)). 
 I read his [book](https://www.amazon.com/-/es/gp/product/B00I9GR4TW/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0) 📖  and [thesis](https://erlang.org/download/armstrong_thesis_2003.pdf).
 I really understood the actor model and how powerful it is. I fell in love with failures 🤪. It's critical to know that 
 every system will fail, and you'd better be prepared. Erlang uses persistent data structures, and so does **vertx-effect** 
@@ -72,7 +81,7 @@ thanks to **json-values** 👏
 I learned from John A De Goes how to use FP to deal with effects. I took the course [Principles of Reactive Programming in Scala](https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN). 
 The result is vertx-effect. There are some expressions implemented that come from **Lisp**, like Cond, Case, and IfElse.
 
-It was sad to find out that Joe Armstrong had passed away in 2009, time before I met him. Rest in peace, Joe. I strongly recommend you 
+It was sad to find out that Joe Armstrong had passed away † in 2009, time before I met him. Rest in peace, Joe. I strongly recommend you 
 study his work. He was very brilliant and, at the same time, very kind and humble.
 
 - [vertx-mongodb-effect](https://vertx-mongodb-effect.imrafaelmerino.dev)
@@ -88,14 +97,5 @@ codecs that abstracts you from that.
 
 **json-values** and **mongo-values** are ideal for working with MongoDB. **mongo-values** gives you a set of codecs that free the 
 programmer from doing any kind of conversion to BSON.
-
-- 🔭 I’m currently working on JIO, zio-exp and migrating json-values into Kotlin. 
-- 🌱 I’m currently learning Scala3 and STM 
-- 👯 I’m looking to collaborate on anything challenging related to FP 
-- 🤔 I’m looking for help with any of my projects 
-- 📫 How to reach me: imrafaelmerino@gmail.com 
-- 😄 Pronouns: he 
-- ⚡ Fun fact: Lisp is the first functional programming language, and the second oldest programming language still in use 
-
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/imrafaelmerino/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
