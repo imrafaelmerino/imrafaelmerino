@@ -45,12 +45,12 @@ I developed json-values in **Scala** and **Dotty** as well. Dotty is a prereleas
   - [Scala version](https://github.com/imrafaelmerino/json-scala-values)
   - [Dotty version](https://github.com/imrafaelmerino/json-dotty-values)
 
-**Scala** is, in my option, the best option to do FP in the **JVM**. I've learned a lot from the **Scala** community. 
+**Scala** is, in my option, a good alternative to do FP in the **JVM**. I've learned a lot from the **Scala** community. 
 I have tremendous respect for the **Scala** creator, [Martin Odersky](https://en.wikipedia.org/wiki/Martin_Odersky), 
 and the **ZIO** creator, [John A De Goes](https://degoes.net).
 I never miss any of their talks and articles.
 
-On the other hand, **Clojure** is a great alternative as well. It's really challenging since it's a lispy programming language. 
+On the other hand, **Clojure** is a great choice as well. It's really challenging since it's a lispy programming language. 
 As a **Lisp** fan, being able to use it in the **JVM** is incredible. You must see any talk from Rich Hickey. He made a significant impact 👊 on me, and he changed my life entirely as a programmer.
 Being honest, it took me almost three years of my life to develop **json-values** and really understand functional programming. 
 The **Scala** version took me only four months because I had already grasped the fundamentals.
@@ -99,4 +99,4 @@ codecs that abstracts you from that.
 **json-values** and **mongo-values** are ideal for working with MongoDB. **mongo-values** gives you a set of codecs that free the 
 programmer from doing any kind of conversion to BSON.
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/imrafaelmerino/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCZi0p8cl-6VerKHh4u3FRog/featured)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
