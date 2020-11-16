@@ -82,7 +82,7 @@ thanks to **json-values** 👏
 I learned from John A De Goes how to use FP to deal with effects. I took the course [Principles of Reactive Programming in Scala](https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN). 
 The result is vertx-effect. There are some expressions implemented that come from **Lisp**, like Cond, Case, and IfElse.
 
-It was sad to find out that Joe Armstrong had passed away † in 2009, time before I met him. Rest in peace, Joe. I strongly recommend you 
+It was sad to find out that Joe Armstrong had passed away † in 2019, a few months before I met him. Rest in peace, Joe. I strongly recommend you 
 study his work. He was very brilliant and, at the same time, very kind and humble.
 
 - [vertx-mongodb-effect](https://vertx.mongodb.effect.imrafaelmerino.dev)
