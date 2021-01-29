@@ -104,15 +104,18 @@ programmer from doing any kind of conversion to BSON.
 <a href="https://github.com/imrafaelmerino/JIO"> <img src="logos/jio-150x86.png" alt="jio"/> </a>
 
 **JIO is the proof you can do Functional Programming in Java 🕺**.  Values, expressions, and functions on top of the
-CompletableFuture API. The IO monad is extremely powerful and allows you to tame any imaginable effect: console programs, HTTP requests,
-database calls, etc. Everything is composable and referential transparent in the world of lambdas λ and values, which
-helps you cope with complexity 😌. I think, nowadays (beginning of 2021), there's nothing compared to this in the Java world 🤷‍♂️.
+CompletableFuture API. The **IO monad** is extremely powerful and allows you to tame any imaginable effect: console programs, 
+HTTP requests, database calls, etc. Everything is composable and referential transparent in the world of lambdas λ and 
+values, which helps you cope with complexity 😌. I think, nowadays (beginning of 2021), there's nothing compared to this 
+in the Java world 🤷‍️.
 
 I implemented a reactive MongoDB client and a reactive HTTP client. I developed some interesting console programs that
 show the essence of JIO.
 
-It's the first time I used JFR and JMC. I'm glad that since Java 11, we have these tools. Logging is a key aspect of any system.  
-I fiddled with the fork/join framework that came out in Java 7. I thought you couldn't use it for blocking operations, but that's surprisingly false. The ManagedBlocker interface opens the door to submitting blocking tasks to the pool, and I took advantage 💪 of this in JIO.
+It's the first time I used **JFR** and **JMC**. I'm glad that since **Java 11**, we have these tools. Logging is a key aspect of any system.  
+
+I fiddled with the fork/join framework that came out in **Java 7**. I thought you couldn't use it for blocking operations, but that's surprisingly false. 
+The **ManagedBlocke**r interface opens the door to submitting blocking tasks to the pool, and I took advantage 💪 of this in JIO.
 
 Since Mockito and all that stuff are not my cup of tea, I developed a native Java HTTP server to test my HTTP client.
 Of course! The server is configurable just with functions.
