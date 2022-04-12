@@ -85,7 +85,7 @@ The result is vertx-effect. There are some expressions implemented that come fro
 It was sad to find out that Joe Armstrong had passed away † in 2019, a few months before I met him. Rest in peace, Joe. I strongly recommend you 
 study his work. He was very brilliant and, at the same time, very kind and humble.
 
-- [vertx-mongodb-effect](https://vertx.mongodb.effect.imrafaelmerino.dev)
+- [vertx-mongodb-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
 
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
