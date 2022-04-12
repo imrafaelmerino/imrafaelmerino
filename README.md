@@ -94,7 +94,7 @@ with the **MongoDB**.
 Going from Json to BSON and vice versa was really cumbersome and tedious. That's why I developed **mongo-values**, a set of 
 codecs that abstracts you from that.
 
-- [mongodb-values](https://github.com/imrafaelmerino/mongodb-values)
+- [mongodb-values](https://github.com/imrafaelmerino/mongo-values)
 
 **json-values** and **mongo-values** are ideal for working with MongoDB. **mongo-values** gives you a set of codecs that free the 
 programmer from doing any kind of conversion to BSON.
