@@ -43,7 +43,6 @@ I developed json-values in **Scala** and **Dotty** as well. Dotty is a prereleas
 
   - [Java version](https://github.com/imrafaelmerino/json-values)
   - [Scala version](https://github.com/imrafaelmerino/json-scala-values)
-  - [Dotty version](https://github.com/imrafaelmerino/json-dotty-values)
 
 **Scala** is, in my option, a good alternative to do FP in the **JVM**. I've learned a lot from the **Scala** community. 
 I have tremendous respect for the **Scala** creator, [Martin Odersky](https://en.wikipedia.org/wiki/Martin_Odersky), 
