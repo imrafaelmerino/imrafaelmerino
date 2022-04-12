@@ -59,7 +59,7 @@ The **Scala** version took me only four months because I had already grasped the
 the Java version of **json-values**. I tested a lot of alternatives and compare them in terms of performance and design.
 I ended up using the persistent data structures from the library [vavr](https://www.vavr.io).  
 
-- [vertx-effect](https://vertx.effect.imrafaelmerino.dev)
+- [vertx-effect](https://github.com/imrafaelmerino/vertx-effect)
 
 <a href="https://github.com/imrafaelmerino/vertx-effect"> <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/> </a>
 
