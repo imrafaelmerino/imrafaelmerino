@@ -3,8 +3,6 @@
 
 <img src="./banner_3.png" alt="logo"/>
 
-Skills: JAVA / SCALA / CLOJURE / LISP / ERLANG / Functional Programming / Actors
-
 - 📫 How to reach me: imrafaelmerino@gmail.com 
 - 😄 Pronouns: he 
 - ⚡ Fun fact: I was a chess ♔ player. I was the champion 🏆 of Spain 🇪🇸 several times during my childhood. 
@@ -37,22 +35,12 @@ Since then, I use optics all the time.
 
 Developing **json-values**, I started taming effects with FP. I experienced how great FP is describing, composing, and 
 executing programs made up of effectful functions λ. I designed an interactive program that, given a spec, creates 
-a Json asking the user for every value on the console 📺. I also wrote a Json future.
+a Json asking the user for every value on the console 📺. 
 
-I developed json-values in **Scala** and **Dotty** as well. Dotty is a prerelease of Scala3.
+I developed json-values in **Scala** as well, however I did it for the fun of it and I dont maintain this library
 
   - [Java version](https://github.com/imrafaelmerino/json-values)
   - [Scala version](https://github.com/imrafaelmerino/json-scala-values)
-
-**Scala** is, in my option, a good alternative to do FP in the **JVM**. I've learned a lot from the **Scala** community. 
-I have tremendous respect for the **Scala** creator, [Martin Odersky](https://en.wikipedia.org/wiki/Martin_Odersky), 
-and the **ZIO** creator, [John A De Goes](https://degoes.net).
-I never miss any of their talks and articles.
-
-On the other hand, **Clojure** is a great choice as well. It's really challenging since it's a lispy programming language. 
-As a **Lisp** fan, being able to use it in the **JVM** is incredible. You must see any talk from Rich Hickey. He made a significant impact 👊 on me, and he changed my life entirely as a programmer.
-Being honest, it took me almost three years of my life to develop **json-values** and really understand functional programming. 
-The **Scala** version took me only four months because I had already grasped the fundamentals.
 
 **Java** doesn't have persistent data structures. **Scala** and **Clojure** does. This was a problem implementing 
 the Java version of **json-values**. I tested a lot of alternatives and compare them in terms of performance and design.
@@ -119,5 +107,9 @@ The **ManagedBlocke**r interface opens the door to submitting blocking tasks to 
 Since Mockito and all that stuff are not my cup of tea, I developed a native Java HTTP server to test my HTTP client.
 Of course! The server is configurable just with functions.
 
+
+- [java-fun](https://github.com/imrafaelmerino/java-fun)
+
+Best API in Java to do Property Based Testing.
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCZi0p8cl-6VerKHh4u3FRog/featured)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
