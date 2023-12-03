@@ -1,5 +1,5 @@
 ### Hi there 👋, my name is Rafael Merino
-#### I identify as both a programmer 👩‍💻 and a problem solver. The moments of struggle in solving a problem make me feel like the most miserable person in the world. Conversely, the joy of successfully overcoming a challenge doesn't make me the happiest person 🤷; instead, I simply move on to the next problem.
+#### I identify as both a programmer 👩‍💻 and a problem solver. The moments of struggle in solving a problem make me feel like the most miserable person in the world. Conversely, the joy of successfully overcoming a challenge doesn't make me the happiest person 🤷; instead, I simply move on to the next problem!
 
 
 <img src="./banner_3.png" alt="logo"/>
@@ -29,31 +29,24 @@ While the initial development of **json-values** occurred in **Scala** for the s
 
 The absence of persistent data structures in **Java** led me to explore and compare alternatives for performance and design, ultimately choosing the vavr library.
 
+- [vertx-values](https://github.com/imrafaelmerino/vertx-values)
+
+In the Vert.x ecosystem, JSON message transmission is a prevalent practice, but challenges arise when using of the native JsonObject or JsonArray types from Jackson due to the need for creating copies, impacting performance and straining the Garbage Collector. **vertx-values** steps in as a solution, leveraging the json-values framework to enable the transmission of immutable JSON objects. vertx-values aims to significantly enhance the efficiency of JSON message transmission within Vert.x applications.
+
+
 - [vertx-effect](https://github.com/imrafaelmerino/vertx-effect)
 
 <a href="https://github.com/imrafaelmerino/vertx-effect"> <img src="logos/vertx_effect_150x86.png" alt="vertx-effect"/> </a>
 
-Suppose I had to describe **vertx-effect** in three words. In that case, they'd be without a doubt: expressions, composition, 
-and persistent data structures or values. **vertx-effect** is the place where actors model meets functional programming
-in **Java**.
+**vertx-effect in a Nutshell: The Fusion of Actors Model and Functional Programming in Java**
 
-I couldn't resist naming the most essential function in this library as lambda 😎
+With an extensive background in Vertx, a persistent belief in doing better 🤷‍♂️ fueled my journey. Asynchronous programming poses challenges, amplified in the daunting landscape of callback hell 🔥 for business logic. Imperative programming falls short, and while virtual threads are a boon, they don't enhance program resilience. The crux lies in treating errors not as exceptions but as normal data.
 
-I had been working with Vertx for a long time. I always had the feeling that I could do it better 🤷‍♂️.
-Asynchronous programming is hard. It's even harder if you have to deal with the callback hell 🔥 to do 
-your business logic. Imperative programming doesn't help here. 
+My revelation came while exploring **Erlang** and immersing myself in [Joe Armstrong's](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)) teachings through his [book](https://www.amazon.com/-/es/gp/product/B00I9GR4TW/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0) 📖 and [thesis](https://erlang.org/download/armstrong_thesis_2003.pdf). The actor model's potency, coupled with an appreciation for embracing failures 🤪, profoundly impacted **vertx-effect**, enriched by persistent data structures from **json-values** 👏.
 
-On the other hand, I started learning **Erlang** and watching videos of [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)). 
-I read his [book](https://www.amazon.com/-/es/gp/product/B00I9GR4TW/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0) 📖  and [thesis](https://erlang.org/download/armstrong_thesis_2003.pdf).
-I really understood the actor model and how powerful it is. I fell in love with failures 🤪. It's critical to know that 
-every system will fail, and you'd better be prepared. Erlang uses persistent data structures, and so does **vertx-effect** 
-thanks to **json-values** 👏
+Inspired by John A De Goes, I embraced functional programming to tackle effects, drawing insights from the [Principles of Reactive Programming in Scala](https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN) course. The resultant creation, **vertx-effect**, incorporates expressions like CondExp, SwitchExp, and IfElseExp from **Lisp**.
 
-I learned from John A De Goes how to use FP to deal with effects. I took the course [Principles of Reactive Programming in Scala](https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN). 
-The result is vertx-effect. There are some expressions implemented that come from **Lisp**, like Cond, Case, and IfElse.
-
-It was sad to find out that Joe Armstrong had passed away † in 2019, a few months before I met him. Rest in peace, Joe. I strongly recommend you 
-study his work. He was very brilliant and, at the same time, very kind and humble.
+A poignant note: The untimely passing † of Joe Armstrong in 2019, just months before a potential meeting, was a somber moment. His brilliance, humility, and kindness continue to resonate through his enduring work, encouraging all to delve into and appreciate his profound legacy.
 
 - [vertx-mongodb-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
 
