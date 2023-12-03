@@ -29,10 +29,30 @@ While the initial development of **json-values** occurred in **Scala** for the s
 
 The absence of persistent data structures in **Java** led me to explore and compare alternatives for performance and design, ultimately choosing the vavr library.
 
+---
+
 ## [vertx-values](https://github.com/imrafaelmerino/vertx-values)
 
 In the Vert.x ecosystem, JSON message transmission is a prevalent practice, but challenges arise when using of the native JsonObject or JsonArray types from Jackson due to the need for creating copies, impacting performance and straining the Garbage Collector. **vertx-values** steps in as a solution, leveraging the json-values framework to enable the transmission of immutable JSON objects. vertx-values aims to significantly enhance the efficiency of JSON message transmission within Vert.x applications.
 
+---
+
+## [mongodb-values](https://github.com/imrafaelmerino/mongo-values)
+
+**json-values** and **mongo-values** form the perfect duo for seamless MongoDB interactions. With **mongo-values**, programmers are liberated from manual BSON conversions, thanks to a set of codecs that operate with exceptional speed. The process is streamlined – JSON is serialized and transmitted over the wire, and vice versa for deserialization, eliminating the need for intermediate conversions. This not only enhances performance but also simplifies the MongoDB workflow for developers.
+
+---
+
+## [avro-spec](https://github.com/imrafaelmerino/avro-spec)
+
+With the widespread popularity of Kafka, I opted to seamlessly integrate the json-values spec with [Avro](https://avro.apache.org/), and the outcome is fantastic!
+**avro-spec** empowers you to create [Avro](https://avro.apache.org/) schemas and serializers/deserializers
+with the [specs](https://github.com/imrafaelmerino/json-values#specs) from json-values. Leveraging the simplicity,
+intuitiveness, and composability of creating specs allows you to efficiently define Avro schemas. The provided
+serializers/deserializers enable the transmission of the immutable and persistent JSON
+from [json-values](https://github.com/imrafaelmerino/json-values) through the wire.
+
+---
 
 ## [vertx-effect](https://github.com/imrafaelmerino/vertx-effect)
 
@@ -48,6 +68,8 @@ Inspired by John A De Goes, I embraced functional programming to tackle effects,
 
 A poignant note: The untimely passing † of Joe Armstrong in 2019, just months before a potential meeting, was a somber moment. His brilliance, humility, and kindness continue to resonate through his enduring work, encouraging all to delve into and appreciate his profound legacy.
 
+---
+
 ## [vertx-mongodb-effect](https://github.com/imrafaelmerino/vertx-mongodb-effect)
 
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
@@ -57,10 +79,9 @@ with the **MongoDB**.
 Going from Json to BSON and vice versa was really cumbersome and tedious. That's why I developed **mongo-values**, a set of 
 codecs that abstracts you from that.
 
-## [mongodb-values](https://github.com/imrafaelmerino/mongo-values)
+---
 
-**json-values** and **mongo-values** are ideal for working with MongoDB. **mongo-values** gives you a set of codecs that free the 
-programmer from doing any kind of conversion to BSON.
+
 
 ## [JIO](https://github.com/imrafaelmerino/JIO)
 
@@ -83,9 +104,12 @@ The **ManagedBlocke**r interface opens the door to submitting blocking tasks to 
 Since Mockito and all that stuff are not my cup of tea, I developed a native Java HTTP server to test my HTTP client.
 Of course! The server is configurable just with functions.
 
+---
 
 ## [java-fun](https://github.com/imrafaelmerino/java-fun)
 
 Best API in Java to do Property Based Testing.
+
+--
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCZi0p8cl-6VerKHh4u3FRog/featured)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
