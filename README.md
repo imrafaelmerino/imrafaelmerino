@@ -1,50 +1,33 @@
 ### Hi there 👋, my name is Rafael Merino
-#### I am a functional programmer 👩‍💻
+#### I identify as both a programmer 👩‍💻 and a problem solver. The moments of struggle in solving a problem make me feel like the most miserable person in the world. Conversely, the joy of successfully overcoming a challenge doesn't make me the happiest person 🤷; instead, I simply move on to the next problem.
+
 
 <img src="./banner_3.png" alt="logo"/>
 
 - 📫 How to reach me: imrafaelmerino@gmail.com 
 - 😄 Pronouns: he 
-- ⚡ Fun fact: I was a chess ♔ player. I was the champion 🏆 of Spain 🇪🇸 several times during my childhood. 
+- ⚡ Fun fact: I was a chess ♔ player. I was the champion 🏆 of Spain 🇪🇸 several times during my childhood.
 
-List of my personal projects 💪 in chronological order and their making-of, sit back and grab 🍿:
+
+Sit back and grab some popcorn 🍿 as I take you through a chronological journey of my personal projects 💪:
 
 - [json-values](https://json.values.imrafaelmerino.dev) 
 
 <a href="https://github.com/imrafaelmerino/json-values"> <img src="logos/json_values_150x86.png" alt="json-values"/> </a>
 
-This was my very first project as a functional developer 👏. I learned from [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) how important persistent data 
-structures are. By the time I started developing **json-values**, I was working with Json all the time. I really missed 
-a persistent Json and a better API to manipulate them 😡. Developing **json-values**, I put into practice 🏋️‍ many new 
-concepts for me like recursion, tail-call optimization, trampolines, high order functions, functors, monads, etc.
+This marked my initiation into the realm of functional programming 👏. Inspired by [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) and his emphasis on persistent data structures, I embarked on creating **json-values**. Constantly immersed in JSON-related tasks, I felt the need for a persistent Json structure and a more robust API for manipulation 😡. The development of **json-values** became a playground for new concepts such as recursion, tail-call optimization, trampolines, high-order functions, functors, and monads.
 
-I started testing 🧪 **json-values** with a **Scala** library called [ScalaCheck](https://www.scalacheck.org), which is used for property-based testing (PBT).
-This way, I killed two 🐦 with a stone; I learned a new language, **Scala**, and an inspiring testing philosophy. I discovered 
-property-based testing thanks to [John Hughes](https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist)) and [QuickCheck](https://hackage.haskell.org/package/QuickCheck) from Haskell. 
-PBT led me to create a beautiful Json generator. I challenged the world, 
-claiming it was the best Json generator in the whole galaxy 🌌 by that time (and still it is!) You can benefit from
-this Json generator to test your code. Prove me wrong if you have a better alternative!
+Testing 🧪 was a crucial aspect, and I explored the world of property-based testing (PBT) using the **Scala** library [ScalaCheck](https://www.scalacheck.org). This not only introduced me to a new language but also exposed me to a testing philosophy inspired by [John Hughes](https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist)) and Haskell's [QuickCheck](https://hackage.haskell.org/package/QuickCheck). The outcome? A JSON generator I proudly claimed to be the best in the galaxy 🌌, a challenge to which the world could respond with a better alternative!
 
-Spec is an incredible [Clojure](https://clojure.org) library. I implemented json-spec based on the ideas I learned from it. At the risk of being
-presumptuous, I claim it's by far the best way of validating a Json in **Java** and **Scala**. It's easy to write, read, and 
-maintain. Defining json generators and specs is a piece of 🍰.
+Spec, an incredible [Clojure](https://clojure.org) library, inspired me to create json-spec, a validation approach I consider the best for **Java** and **Scala**. The process of defining JSON generators and specs became a piece of 🍰. Additionally, I ventured into developing the fastest JSON parser/validator in the JAVA ecosystem, adopting a novel approach of interleaving parsing and validation for optimal performance.
 
-I bought the book 📖 [Optics by example](https://leanpub.com/optics-by-example), from Chris Penner, written in **Haskell**. 
-Good read, by the way. I studied [Monocle](https://www.optics.dev/Monocle/) in **Scala** as well. That allowed me to develop some optics in **json-values**. 
-Since then, I use optics all the time.
+My journey took me to the realm of optics through the book 📖 [Optics by example](https://leanpub.com/optics-by-example) by Chris Penner, written in **Haskell**. Studying [Monocle](https://www.optics.dev/Monocle/) in **Scala** allowed me to incorporate optics into **json-values**. Since then, optics have become an integral part of my toolkit.
 
-Developing **json-values**, I started taming effects with FP. I experienced how great FP is describing, composing, and 
-executing programs made up of effectful functions λ. I designed an interactive program that, given a spec, creates 
-a Json asking the user for every value on the console 📺. 
+While the initial development of **json-values** occurred in **Scala** for the sheer joy of it, I recognized the need for dual versions:
+- [Java version](https://github.com/imrafaelmerino/json-values): Implemented using persistent data structures from [vavr](https://www.vavr.io).
+- [Scala version](https://github.com/imrafaelmerino/json-scala-values): Developed for fun, though not actively maintained.
 
-I developed json-values in **Scala** as well, however I did it for the fun of it and I dont maintain this library
-
-  - [Java version](https://github.com/imrafaelmerino/json-values)
-  - [Scala version](https://github.com/imrafaelmerino/json-scala-values)
-
-**Java** doesn't have persistent data structures. **Scala** and **Clojure** does. This was a problem implementing 
-the Java version of **json-values**. I tested a lot of alternatives and compare them in terms of performance and design.
-I ended up using the persistent data structures from the library [vavr](https://www.vavr.io).  
+The absence of persistent data structures in **Java** led me to explore and compare alternatives for performance and design, ultimately choosing the vavr library.
 
 - [vertx-effect](https://github.com/imrafaelmerino/vertx-effect)
 
