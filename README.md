@@ -74,10 +74,7 @@ A poignant note: The untimely passing † of Joe Armstrong in 2019, just months 
 
 <a href="https://github.com/imrafaelmerino/vertx-mongodb-effect"> <img src="logos/vertx_mongodb_effect_150x86.png" alt="vertx-mongodb-effect"/> </a>
 
-You can model any effect in **vertx-effect** using lambdas λ. **vertx-mondodb-effect** gives you some λ to interact 
-with the **MongoDB**.
-Going from Json to BSON and vice versa was really cumbersome and tedious. That's why I developed **mongo-values**, a set of 
-codecs that abstracts you from that.
+You can express any effect in vertx-effect using Lambdas. With vertx-mongodb-effect, you gain access to convenient Lambdas for seamless interaction with MongoDB, harnessing the power of mongo-values and json-values.
 
 ---
 
@@ -87,29 +84,37 @@ codecs that abstracts you from that.
 
 <a href="https://github.com/imrafaelmerino/JIO"> <img src="logos/jio-150x86.png" alt="jio"/> </a>
 
-**JIO is the proof you can do Functional Programming in Java 🕺**.  Values, expressions, and functions on top of the
-CompletableFuture API. The **IO monad** is extremely powerful and allows you to tame any imaginable effect: console programs, 
-HTTP requests, database calls, etc. Everything is composable and referential transparent in the world of lambdas λ and 
-values, which helps you cope with complexity 😌. I think, nowadays (beginning of 2021), there's nothing compared to this 
-in the Java world 🤷‍️.
+JIO stands as a testament that Functional Programming in Java is more than just possible 🕺. It seamlessly integrates values, expressions, and functions into the CompletableFuture API. The prowess of the IO monad unfolds, offering unparalleled capabilities to harness a spectrum of effects, be it console programs, HTTP requests, or database calls. The world of lambdas and values within JIO is inherently composable and referentially transparent, providing a robust framework to navigate complexity 😌. In the realm of Java, there seems to be nothing quite like it 🤷‍️. JIO's expressive features are a tour de force in addressing complexity, and handling retries with diverse policies becomes a straightforward task.
 
-I implemented a reactive MongoDB client and a reactive HTTP client. I developed some interesting console programs that
-show the essence of JIO.
+In my journey with JIO, I crafted a reactive MongoDB client and an agile HTTP client. I delved into developing intriguing console programs that illuminate the core of JIO's capabilities.
 
-It's the first time I used **JFR** and **JMC**. I'm glad that since **Java 11**, we have these tools. Logging is a key aspect of any system.  
+Experimenting with the fork/join framework introduced in Java 7, I discovered that contrary to popular belief, it indeed accommodates blocking operations. The ManagedBlocker interface served as the gateway to submit blocking tasks to the pool, a capability I wholeheartedly embraced 💪 in JIO.
 
-I fiddled with the fork/join framework that came out in **Java 7**. I thought you couldn't use it for blocking operations, but that's surprisingly false. 
-The **ManagedBlocke**r interface opens the door to submitting blocking tasks to the pool, and I took advantage 💪 of this in JIO.
-
-Since Mockito and all that stuff are not my cup of tea, I developed a native Java HTTP server to test my HTTP client.
-Of course! The server is configurable just with functions.
+Steering away from frameworks like Mockito, I engineered a native Java HTTP server to thoroughly test my HTTP client. Remarkably, the server is entirely configurable using functions. Moreover, leveraging virtual threads allows seamless conversion of any code into the JIO API. The jio-test module further amplifies JIO's strength, enabling powerful property-based testing. Rest assured, it's an effective tool for uncovering bugs in your code!
 
 ---
 
 ## [java-fun](https://github.com/imrafaelmerino/java-fun)
 
-Best API in Java to do Property Based Testing.
+The primary objective of java-fun is to bring essential Functional Programming (FP) patterns to the Java ecosystem. Unlike mere translations of these patterns from other languages, java-fun is designed with the intent that any typical Java developer can effortlessly embrace and comprehend these concepts. The emphasis is on preserving the essence of these patterns, ensuring developers do not become entangled in unfamiliar types and conventions.
 
---
+Here are the key concepts that have been thoughtfully implemented within java-fun:
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/imrafaelmerino)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCZi0p8cl-6VerKHh4u3FRog/featured)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://blog.imrafaelmerino.dev)  
+- Pseudo Random Generators: Property-Based Testing is a highly effective testing approach, and having a robust set of generators that can be composed in countless ways is crucial. java-fun simplifies this process, making it incredibly straightforward.
+
+- Optics: In functional programming, optics take precedence over traditional getters and setters. They offer safety and composability, eliminating the likelihood of encountering NullPointerExceptions when used correctly.
+
+- Tuples: Although Java may not officially support tuples, they remain exceptionally valuable. java-fun introduces tuples with arities of two and three, encompassing pairs and triples, respectively. These structures enhance code expressiveness and maintainability.
+
+---
+
+## [javatudes](https://github.com/imrafaelmerino/javatudes)
+
+"An étude (a French word meaning study) is an instrumental musical composition, usually short, of considerable difficulty, and designed to provide practice material for perfecting a particular musical skill." — Wikipedia
+
+This project contains javatudes—Java programs, usually short, for perfecting particular programming skills.
+
+Admittedly, this idea isn't original; I borrowed it from Peter Norvig's Github repository. I simply swapped Java for Python :)
+
+Discover my Java solutions to the captivating Advent of Code. Dive into a plethora of puzzles and algorithms, each meticulously solved without reliance on any external library. It's all about honing skills, practicing, and, of course, having a great deal of fun along the way!
+
