@@ -99,9 +99,9 @@ the [Principles of Reactive Programming in Scala](https://www.youtube.com/playli
 course. The resultant creation, **vertx-effect**, incorporates expressions like CondExp, SwitchExp, and IfElseExp from *
 *Lisp**.
 
-A poignant note: The untimely passing † of Joe Armstrong in 2019, just months before a potential meeting, was a somber
-moment. His brilliance, humility, and kindness continue to resonate through his enduring work, encouraging all to delve
-into and appreciate his profound legacy.
+A poignant note: The untimely passing † of Joe Armstrong in 2019 was a somber moment. His brilliance, humility, and
+kindness continue to resonate through his enduring work, encouraging all to delve into and appreciate his profound
+legacy.
 
 ---
 
