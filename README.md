@@ -10,7 +10,7 @@
 
 Sit back and grab some popcorn 🍿 as I take you through a chronological journey of my personal projects 💪:
 
-## [json-values](https://json.values.imrafaelmerino.dev)
+## [json-values](https://github.com/imrafaelmerino/json-values)
 
 This marked my initiation into the realm of functional programming 👏. Inspired
 by [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) and his emphasis on persistent data structures, I embarked
