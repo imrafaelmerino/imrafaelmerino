@@ -1,8 +1,6 @@
 ### Hi there 👋, my name is Rafael Merino
 
-#### I identify as both a programmer 👩‍💻 and a problem solver. The moments of struggle in solving a problem make me feel like the most miserable person in the world. Conversely, the joy of successfully overcoming a challenge doesn't make me the happiest person 🤷; instead, I simply move on to the next problem!
-
-<img src="./banner_3.png" alt="logo"/>
+#### I see myself as both a programmer 👩‍💻 and a relentless problem solver. Tackling tough challenges can make me feel like the most miserable person in the world—but the moment I solve them, I'm not the happiest person either 🤷. I simply move on, ready for the next challenge!
 
 - 📫 How to reach me: imrafaelmerino@gmail.com
 - 😄 Pronouns: he
