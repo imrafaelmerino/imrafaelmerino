@@ -117,8 +117,8 @@ and json-values.
 ## [JIO](https://github.com/imrafaelmerino/JIO)
 
 JIO stands as a testament that Functional Programming in Java is more than just possible 🕺. It
-seamlessly integrates values, expressions, and functions into the CompletableFuture API. The prowess
-of the IO monad unfolds, offering unparalleled capabilities to harness a spectrum of effects, be it
+seamlessly integrates values, expressions, and functions into virtual threads and structured concurrency. 
+The prowess of the IO monad unfolds, offering unparalleled capabilities to harness a spectrum of effects, be it
 console programs, HTTP requests, or database calls. The world of lambdas and values within JIO is
 inherently composable and referentially transparent, providing a robust framework to navigate
 complexity 😌. In the realm of Java, there seems to be nothing quite like it 🤷‍️. JIO's expressive
@@ -127,10 +127,6 @@ becomes a straightforward task.
 
 In my journey with JIO, I crafted a reactive MongoDB client and an agile HTTP client. I delved into
 developing intriguing console programs that illuminate the core of JIO's capabilities.
-
-Experimenting with the fork/join framework introduced in Java 7, I discovered that contrary to
-popular belief, it indeed accommodates blocking operations. The ManagedBlocker interface served as
-the gateway to submit blocking tasks to the pool, a capability I wholeheartedly embraced 💪 in JIO.
 
 Steering away from frameworks like Mockito, I engineered a native Java HTTP server to thoroughly
 test my HTTP client. Remarkably, the server is entirely configurable using functions. Moreover,
