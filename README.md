@@ -98,7 +98,7 @@ Inspired by John A De Goes, I embraced functional programming to tackle effects,
 from the
 [Principles of Reactive Programming in Scala](https://www.youtube.com/playlist?list=PLMhMDErmC1TdBMxd3KnRfYiBV2ELvLyxN)
 course. The resultant creation, **vertx-effect**, incorporates expressions like CondExp, SwitchExp,
-and IfElseExp from \* \*Lisp\*\*.
+and IfElseExp from **Lisp**.
 
 A poignant note: The untimely passing † of Joe Armstrong in 2019 was a somber moment. His
 brilliance, humility, and kindness continue to resonate through his enduring work, encouraging all
