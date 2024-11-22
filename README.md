@@ -117,13 +117,13 @@ and json-values.
 ## [JIO](https://github.com/imrafaelmerino/JIO)
 
 JIO stands as a testament that Functional Programming in Java is more than just possible 🕺. It
-seamlessly integrates values, expressions, and functions into virtual threads and structured concurrency. 
-The prowess of the IO monad unfolds, offering unparalleled capabilities to harness a spectrum of effects, be it
-console programs, HTTP requests, or database calls. The world of lambdas and values within JIO is
-inherently composable and referentially transparent, providing a robust framework to navigate
-complexity 😌. In the realm of Java, there seems to be nothing quite like it 🤷‍️. JIO's expressive
-features are a tour de force in addressing complexity, and handling retries with diverse policies
-becomes a straightforward task.
+seamlessly integrates values, expressions, and functions into virtual threads and structured
+concurrency. The prowess of the IO monad unfolds, offering unparalleled capabilities to harness a
+spectrum of effects, be it console programs, HTTP requests, or database calls. The world of lambdas
+and values within JIO is inherently composable and referentially transparent, providing a robust
+framework to navigate complexity 😌. In the realm of Java, there seems to be nothing quite like it
+🤷‍️. JIO's expressive features are a tour de force in addressing complexity, and handling retries
+with diverse policies becomes a straightforward task.
 
 In my journey with JIO, I crafted a reactive MongoDB client and an agile HTTP client. I delved into
 developing intriguing console programs that illuminate the core of JIO's capabilities.
@@ -182,3 +182,9 @@ Mighty Meter is a streamlined solution for distributed performance testing using
 real-time monitoring powered by Grafana and InfluxDB. Easily set up in Docker, it enables scalable
 testing and visualizes key metrics on intuitive dashboards to help you analyze and optimize
 application performance at scale.
+
+## [Kafka-CLI](https://github.com/imrafaelmerino/kafka-cli)
+
+Kafka CLI is a powerful command-line interface tool designed to simplify and enhance your
+interaction with Apache Kafka. Building on my expertise with JIO and the lessons learned from
+developing avro-spec.
